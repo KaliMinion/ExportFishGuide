@@ -23,7 +23,7 @@ if FishGuide2:IsOpen() then
 				end
 				GUI:SetClipboardText(tostring(str:sub(1,-2)..[[],"pinned":[],"latestPatch":6.5}]]))
 				FishGuide2:Close()
-				io.popen([[explorer https://ffxiv.pf-n.co/ocean-fishing & explorer https://ff14fish.carbuncleplushy.com]]):close()
+				io.popen([[explorer https://ffxivteamcraft.com/log-tracker/FSH & explorer https://ffxiv.pf-n.co/ocean-fishing & explorer https://ff14fish.carbuncleplushy.com]]):close()
 			end)
 		end)
 	end) 
